@@ -3,7 +3,7 @@
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
-- Farhood Ensan, name1@ucsd.edu
+- Farhood Ensan, fensan@ucsd.edu
 - Rebecca Hu, reh016@ucsd.edu
 - Alex Luo, ayl081@ucsd.edu
 - Sharmi Mathur, s3mathur@ucsd.edu
