@@ -12,17 +12,10 @@ Project Team Members:
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
+  Genre as we know it classifies music based on a variety of not only musical qualities but social ones. Music might be associated with each other because of their time period, the artist who produced them, their popularity, and myriad other components that may have little to do with how the music actually sounds. We decided to see if an unsupervised machine learning algorithm might spurn the biases of our social expectations of genre and cluster songs by the similarity of their audio features alone. We hypothesize that while the way people classify genres has a lot of historical and social context inherently, a machine algorithm could potentially draw unique connections between songs based purely on the audio features.
 
-- What is the data set that you are going to analyze?
-- What is your research question? 
-- What is your hypothesis about the results? 
-- What features of the data will you use to address your question? 
-- What techniques and software tools will you use to extract these features?
-- What analytic techniques will you use?
-- What forms will your results take? (graphs, charts, images, sonification, Wordles, etc)
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
+  Inspired by genre classification using an SVM in class, we instead use unsupervised learning for genre classification. We will scrape different genres of audio data from freemusicarchive.org. With the librosa library, we will use the librosa.feature functions to extract the features MFCC, CENS, and spectral contrast. We will test hierarchical density-based clustering, k-means, and affinity clustering and examine the way the grouping results interact genre conventions. Results will be presented in graphs, charts, and sonification. Because the algorithm will only intake data about what the song sounds like, we hope that it will draw novel connections between unusual songs in a potentially genre-breaking way. 
+
 
 ## Data
 
