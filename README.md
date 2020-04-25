@@ -6,7 +6,7 @@ Project Team Members:
 - Farhood Ensan, name1@ucsd.edu
 - Rebecca Hu, reh016@ucsd.edu
 - Alex Luo, ayl081@ucsd.edu
-- Sharmi Mathur, name4@ucsd.edu
+- Sharmi Mathur, s3mathur@ucsd.edu
 
 ## Abstract
 
