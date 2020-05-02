@@ -21,24 +21,18 @@ Project Team Members:
 
 (10 points) 
 
-This section will describe your data and its origins. Each item should contain a name of the data source, a link to the source, and any necessary background information such as:
-- What is your cultural data source? 
-- When was it made? 
-- Who created the works? 
-- Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
+The cultural data source we use in our project is an audio dataset from Free Music Archive (FMA), an online audio library containing legal music from various genres and artists. The dataset was created in 2016 and contains data that is natively digital. This open-source dataset was created by Defferrard, et al. and more information regarding the collection and curation of this dataset can be found in [their paper](https://arxiv.org/pdf/1612.01840.pdf). The specific files we used for our analysis included features of audio files extracted using the Librosa library, as well as metadata regarding each track's associated genres and artist. 
+
 
 ## Code
 
 (20 points)
 
-This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
+- [Data Acquisition and Cleaning](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
+- [Analysis](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
+- [Generating Results](INSERT LINK HERE): 
+- [Visualizations](INSERT LINK HERE): 
 
-- data acquisition/scraping
-- cleaning
-- analysis
-- generating results. 
-
-Link each of your notebooks or .py files within this section, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
 ## Results
 
@@ -65,7 +59,10 @@ The subsequent paragraphs could address questions including:
 
 ## Team Roles
 
-Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+- Farhood Ensan: 
+- Rebecca Hu,: 
+- Alex Luo: 
+- Sharmi Mathur:
 
 ## Technical Notes and Dependencies
 
@@ -80,3 +77,6 @@ References to any papers, techniques, repositories you used:
 - Papers
 - Repositories
 - Blog posts
+- https://arxiv.org/pdf/1612.01840.pdf
+- https://github.com/mdeff/fma
+- https://towardsdatascience.com/how-to-cluster-in-high-dimensions-4ef693bacc6
