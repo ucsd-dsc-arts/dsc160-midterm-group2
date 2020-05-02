@@ -28,13 +28,11 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 
 (20 points)
 
-- [data acquisition and cleaning](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb)
-..* This notebook
-- [analysis](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb)
-- [generating results](INSERT LINK HERE) 
-- [visualizations](INSERT LINK HERE)
+- [data acquisition and cleaning](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
+- [analysis](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
+- [generating results](INSERT LINK HERE): 
+- [visualizations](INSERT LINK HERE): 
 
-Link each of your notebooks or .py files within this section, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
 ## Results
 
@@ -61,7 +59,10 @@ The subsequent paragraphs could address questions including:
 
 ## Team Roles
 
-Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+- Farhood Ensan: 
+- Rebecca Hu,: 
+- Alex Luo: 
+- Sharmi Mathur:
 
 ## Technical Notes and Dependencies
 
