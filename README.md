@@ -80,3 +80,4 @@ References to any papers, techniques, repositories you used:
 - https://arxiv.org/pdf/1612.01840.pdf
 - https://github.com/mdeff/fma
 - https://towardsdatascience.com/how-to-cluster-in-high-dimensions-4ef693bacc6
+- https://medium.com/latinxinai/discovering-descriptive-music-genres-using-k-means-clustering-d19bdea5e443
