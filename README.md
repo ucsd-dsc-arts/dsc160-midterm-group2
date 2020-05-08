@@ -30,7 +30,7 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 
 - [Data Acquisition and Cleaning](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
 - [Analysis](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
-- [Generating Results](INSERT LINK HERE): 
+- [Generating Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Kmeans_V1.ipynb): 
 - [Visualizations](INSERT LINK HERE): 
 
 
@@ -80,3 +80,4 @@ References to any papers, techniques, repositories you used:
 - https://arxiv.org/pdf/1612.01840.pdf
 - https://github.com/mdeff/fma
 - https://towardsdatascience.com/how-to-cluster-in-high-dimensions-4ef693bacc6
+- https://medium.com/latinxinai/discovering-descriptive-music-genres-using-k-means-clustering-d19bdea5e443
