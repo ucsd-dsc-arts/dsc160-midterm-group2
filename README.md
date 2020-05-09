@@ -52,16 +52,16 @@ Generating Results:
 
 This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
 
--[Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
--[Agglomerative Clustering Results]()
--[DBSCAN Results]()
--[K-Means with UMAP Results]()
--[MeanShift Results]()
+- [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
+- [Agglomerative Clustering Results]()
+- [DBSCAN Results]()
+- [K-Means with UMAP Results]()
+- [MeanShift Results]()
 
 Add some links to notable/example audio files here:
--[LINK]()
--[LINK]()
--[LINK]()
+- [LINK]()
+- [LINK]()
+- [LINK]()
 
 
 ## Discussion
