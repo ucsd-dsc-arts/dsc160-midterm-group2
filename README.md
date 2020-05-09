@@ -99,17 +99,16 @@ The subsequent paragraphs could address questions including:
 
 ## Technical Notes and Dependencies
 
-Any implementation details or notes we need to repeat your work. 
-- Additional libraries you are using for this project
-- Does this code require other pip packages, software, etc?
-- Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+Non-DataHub Libraries:
+- Plotly
+- Librosa
+- Umap-learn
+- Sklearn
 
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+- 
 - https://arxiv.org/pdf/1612.01840.pdf
 - https://github.com/mdeff/fma
 - https://towardsdatascience.com/how-to-cluster-in-high-dimensions-4ef693bacc6
