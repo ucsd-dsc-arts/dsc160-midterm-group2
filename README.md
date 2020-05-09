@@ -40,9 +40,16 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 
 This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
 
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
+[Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
+[Agglomerative Clustering Results]()
+[DBSCAN Results]()
+[K-Means with UMAP Results]()
+
+Add some links to notable/example audio files here:
+[LINK]()
+[LINK]()
+[LINK]()
+
 
 ## Discussion
 
