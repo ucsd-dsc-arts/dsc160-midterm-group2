@@ -28,11 +28,21 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 
 (20 points)
 
-- [Data Acquisition and Cleaning](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
-- [Analysis](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
-- [Generating Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Kmeans_V1.ipynb): 
-- [Visualizations](INSERT LINK HERE): 
+Data Acquisition:
+- [Data Acquisition](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
 
+Preprocessing:
+- [Feature Extraction](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Data-Select-Feature-Extract.ipynb)
+
+Analysis:
+- [EDA](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
+
+Generating Results:
+- [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb)
+- [Agglomerative Clustering](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Agglomerative_UMAP.ipynb)
+- [DBSCAN Results](INSERT LINK HERE)
+- [K-Means with UMAP](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP.ipynb)
+- [MeanShift Results](INSERT LINK HERE)
 
 ## Results
 
@@ -44,6 +54,7 @@ This section will contain links to documentation of your results. This can inclu
 [Agglomerative Clustering Results]()
 [DBSCAN Results]()
 [K-Means with UMAP Results]()
+[MeanShift Results]()
 
 Add some links to notable/example audio files here:
 [LINK]()
