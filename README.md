@@ -39,7 +39,8 @@ Analysis:
 
 Generating Results:
 - [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb)
-- [Agglomerative Clustering](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Agglomerative_UMAP.ipynb)
+- [Agglomerative Clustering](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Agglomerative_UMAP.ipynb): Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively. Agglomerative clustering recursively merges the pair of clusters that minimally increases a given linkage distance. The linkage criteria determines the metric used for the merge strategy. We used the default ward which is a variance-minimizing approach and in this sense is similar to the k-means objective function but tackled with an agglomerative hierarchical approach.
+
 - [DBSCAN Results](INSERT LINK HERE)
 - [K-Means with PCA](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Kmeans_PCA.ipynb)
 - [K-Means with UMAP](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP.ipynb)
@@ -51,16 +52,16 @@ Generating Results:
 
 This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
 
-[Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
-[Agglomerative Clustering Results]()
-[DBSCAN Results]()
-[K-Means with UMAP Results]()
-[MeanShift Results]()
+-[Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
+-[Agglomerative Clustering Results]()
+-[DBSCAN Results]()
+-[K-Means with UMAP Results]()
+-[MeanShift Results]()
 
 Add some links to notable/example audio files here:
-[LINK]()
-[LINK]()
-[LINK]()
+-[LINK]()
+-[LINK]()
+-[LINK]()
 
 
 ## Discussion
