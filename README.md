@@ -53,9 +53,10 @@ Generating Results:
 This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
 
 - [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg)
-- [Agglomerative Clustering Results]()
+- [Agglomerative Clustering with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Agglomerative_UMAP)
 - [DBSCAN Results]()
 - [K-Means with UMAP Results]()
+- [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA)
 - [MeanShift Results]()
 
 Add some links to notable/example audio files here:
@@ -77,10 +78,18 @@ The subsequent paragraphs could address questions including:
 - How do your results relate to broader social, cultural, economic political, etc., issues? 
 - In what future directions could you expand this work?
 
+
+  The way that songs are thought to be classified into genres can be described as hierarchical in nature. There are broad buckets that most songs fit into, and then some songs can be further classified into subgenres. However, the labeled genre of a song can also be influenced by non-musical factors, like who the artist is or other cultural and societal reasons. The results of our project suggest that genres of music may be more fluid than we previously believed. We intentionally chose songs from four very distinct genres (Rock, Hip Hop, Electronic, and Folk) to see how an unsupervised algorithm would form new clusters of similar songs along novel dimensions based on Librosa-derived audio features.
+  Factors that go into determining a song’s genres include, but are not limited to, its audio qualities, the artist(s) that created the piece, the time period during which it was made, and its lyrics. Although there is no objectively correct way of categorizing music, generally we assume to only find music with similar audial characteristics within a particular genre. However, if an artist typically known for their rock music releases a song with heavy folk influences, it is possible that the song could lack a “folk” genre label, even if such a label would be appropriate. We sought to explore how songs might be classified into genres if only the audio features, rather than any metadata, of the music were used to determine what category each song belonged to.
+  [INSERT PARAGRAPH HERE: How do you think the original artists/musicians would respond to this type of analysis? Would it change/inform their practice in some way?]
+  <br>[INSERT PARAGRAPH HERE: How do your results relate to broader social, cultural, economic political, etc., issues? ]
+   Future directions for this project could include refining the resulting visualizations to include tooltips that would allow users to listen to the audio files as they scroll over each data point on the scatterplot. This would allow for a user-friendly interface to allow us to characterize the resulting clusters more efficiently. Given more time, we would have also liked to try more clustering algorithms as well as different feature selection methods.
+
+
 ## Team Roles
 
 - Farhood Ensan: 
-- Rebecca Hu,: 
+- Rebecca Hu: 
 - Alex Luo: 
 - Sharmi Mathur:
 
