@@ -34,11 +34,11 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 <b>Preprocessing: </b>
 - [Feature Extraction](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Data-Select-Feature-Extract.ipynb)
 
-Analysis:
+<b>Analysis: </b>
 - [EDA](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
 
-Clustering:
-- [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb):: Affinity propagation is a graph-based clustering method that relies on the concept of passing messages between data points. Unlike many other clustering algorithms, affinity propagation does not require an inputted parameter to specify a fixed number of clusters. 
+<b>Clustering: </b>
+- [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb): Affinity propagation is a graph-based clustering method that relies on the concept of passing messages between data points. Unlike many other clustering algorithms, affinity propagation does not require an inputted parameter to specify a fixed number of clusters. 
 
 - [Agglomerative Clustering](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Agglomerative_UMAP.ipynb): Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively. Agglomerative clustering recursively merges the pair of clusters that minimally increases a given linkage distance. The linkage criteria determines the metric used for the merge strategy. We used the default ward which is a variance-minimizing approach and in this sense is similar to the k-means objective function but tackled with an agglomerative hierarchical approach.
 
@@ -49,10 +49,9 @@ PCA (Principal Component Analysis) is a technique which finds the major patterns
 
 - [K-Means with UMAP](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP.ipynb): The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares. This algorithm requires the number of clusters to be specified. UMAP stands for Uniform Manifold Approximation and Projection. It’s the new kid on the dimensionality reduction block. The results of UMAP are very similar to t-SNE but UMAP is faster and more applicable to different problems.
 
-
 - [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP_MEANSHIFT.ipynb): MeanShift clustering aims to discover blobs in a smooth density of samples. It is a centroid based algorithm, which works by updating candidates for centroids to be the mean of the points within a given region. These candidates are then filtered in a post-processing stage to eliminate near-duplicates to form the final set of centroids.
 
-Results:
+<b>Results:</b>
 - [Cluster Characterization](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb): 
 
 ## Results
@@ -82,25 +81,15 @@ K-Means with UMAP Clustering Characteristics:
 
 (30 points, three to five paragraphs)
 
-The first paragraph should be a short summary describing your results.
-
-The subsequent paragraphs could address questions including:
-- Why is this culturally relevant?
-- How does your computational approach differ from the traditional art historical, musicological, manuel/subjective approach to analyzing your cultural subject? 
-- How do you think the original artists/musicians would respond to this type of analysis? Would it change/inform their practice in some way?
-- How do your results relate to broader social, cultural, economic political, etc., issues? 
-- In what future directions could you expand this work?
-
-
 [INSERT FIRST PARAGRAPH SUMMARIZING RESULTS]
 
 <br> The way that songs are thought to be classified into genres can be described as hierarchical in nature. There are broad buckets that most songs fit into, and then some songs can be further classified into subgenres. However, the labeled genre of a song can also be influenced by non-musical factors, like who the artist is or other cultural and societal reasons. The results of our project suggest that genres of music may be more fluid than we previously believed. We intentionally chose songs from four very distinct genres (Rock, Hip Hop, Electronic, and Folk) to see how an unsupervised algorithm would form new clusters of similar songs along novel dimensions based on Librosa-derived audio features.
  
-<br> Factors that go into determining a song’s genres include, but are not limited to, its audio qualities, the artist(s) that created the piece, the time period during which it was made, and its lyrics. Although there is no objectively correct way of categorizing music, generally we assume to only find music with similar audial characteristics within a particular genre. However, if an artist typically known for their rock music releases a song with heavy folk influences, it is possible that the song could lack a “folk” genre label, even if such a label would be appropriate. We sought to explore how songs might be classified into genres if only the audio features, rather than any metadata, of the music were used to determine what category each song belonged to.
+Factors that go into determining a song’s genres include, but are not limited to, its audio qualities, the artist(s) that created the piece, the time period during which it was made, and its lyrics. Although there is no objectively correct way of categorizing music, generally we assume to only find music with similar audial characteristics within a particular genre. However, if an artist typically known for their rock music releases a song with heavy folk influences, it is possible that the song could lack a “folk” genre label, even if such a label would be appropriate. We sought to explore how songs might be classified into genres if only the audio features, rather than any metadata, of the music were used to determine what category each song belonged to.
 
 After listening to a variety of the clustered tracks, we would like to ask the original artists and musicians what their personal goal for the sound was and compare it to their classification. They might be surprised that their rock songs could be considered folk by a computer. Musicians, howerer, should not be driven by a certain genre; they should make the music they want. We hope that a computer-generated classification would not change their respective music styles. Genre is fluid and classifying a song can be subjective, especially when many elements of different genres could be incorporated.
  
-<br> Future directions for this project could include refining the resulting visualizations to include tooltips that would allow users to listen to the audio files as they scroll over each data point on the scatterplot. This would allow for a user-friendly interface to allow us to characterize the resulting clusters more efficiently. Given more time, we would have also liked to try more clustering algorithms as well as different feature selection methods.
+Future directions for this project could include refining the resulting visualizations to include tooltips that would allow users to listen to the audio files as they scroll over each data point on the scatterplot. This would allow for a user-friendly interface to allow us to characterize the resulting clusters more efficiently. Given more time, we would have also liked to try more clustering algorithms as well as different feature selection methods.
 
 
 ## Team Roles
