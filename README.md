@@ -52,7 +52,7 @@ PCA (Principal Component Analysis) is a technique which finds the major patterns
 - [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP_MEANSHIFT.ipynb): MeanShift clustering aims to discover blobs in a smooth density of samples. It is a centroid based algorithm, which works by updating candidates for centroids to be the mean of the points within a given region. These candidates are then filtered in a post-processing stage to eliminate near-duplicates to form the final set of centroids.
 
 <b>Results:</b>
-- [Cluster Characterization](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb): In this notebook we listen to several of the clustered songs and try to characterize each cluster. We describe each resulting cluster with similar features that we noticed between songs.
+- [Cluster Characterization](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb): We chose to explore the groupings created by the K-means UMAP because of the clarity of its groupings by listening to the music that is found in each grouping.
 
 ## Results
 
