@@ -32,18 +32,13 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 - [Data Acquisition](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma).
 
 <b>Preprocessing: </b>
-- [Feature Extraction](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Data-Select-Feature-Extract.ipynb)
+- [Feature Extraction](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Data_Sampling.ipynb) We chose 1600 of the many songs, 400 from each genre, randomly sampled. We had to make sure each of these songs were present in the small FMA dataset that was available.
 
 <b>Analysis: </b>
 - [EDA](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/eda.ipynb): This notebook calculates some basic statistics on the dataset to gain a general understanding of how the genres are distributed and how long the tracks are on average. It generate outputs inline within the notebook.
 
-<<<<<<< HEAD
-Clustering:
-- [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb):: Affinity propagation is a graph-based clustering method that relies on the concept of passing messages between data points. Unlike many other clustering algorithms, affinity propagation does not require an inputted parameter to specify a fixed number of clusters.
-=======
 <b>Clustering: </b>
 - [Affinity Propagation](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/affinity_propagation.ipynb): Affinity propagation is a graph-based clustering method that relies on the concept of passing messages between data points. Unlike many other clustering algorithms, affinity propagation does not require an inputted parameter to specify a fixed number of clusters.
->>>>>>> 147d9027e1bf3a78063ada2980f5c77c4b676c56
 
 - [Agglomerative Clustering](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Agglomerative_UMAP.ipynb): Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively. Agglomerative clustering recursively merges the pair of clusters that minimally increases a given linkage distance. The linkage criteria determines the metric used for the merge strategy. We used the default ward which is a variance-minimizing approach and in this sense is similar to the k-means objective function but tackled with an agglomerative hierarchical approach.
 
@@ -52,20 +47,12 @@ Clustering:
 - [K-Means with PCA](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Kmeans_PCA.ipynb): The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares. This algorithm requires the number of clusters to be specified.
 PCA (Principal Component Analysis) is a technique which finds the major patterns in data for dimensionality reduction. It has been around for a very long time and it’s a linear algorithm.
 
-- [K-Means with UMAP](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP.ipynb): The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares. This algorithm requires the number of clusters to be specified. UMAP stands for Uniform Manifold Approximation and Projection. It’s the new kid on the dimensionality reduction block. The results of UMAP are very similar to t-SNE but UMAP is faster and more applicable to different problems.
+- [K-Means with UMAP](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP.ipynb): The KMeans algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares. This algorithm requires the number of clusters to be specified. UMAP stands for Uniform Manifold Approximation and Projection. It’s the new kid on the dimensionality reduction block. The idea is that it uses the nature of Riemannian Manifold to preserve the topology of the higher dimension as they are abstracted into lower dimensions, making its projection quite useful for analyzing our many dimensional. The results of UMAP are very similar to t-SNE but UMAP is faster and more applicable to different problems. 
 
-<<<<<<< HEAD
-
-- [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP_MEANSHIFT.ipynb): MeanShift clustering aims to discover blobs in a smooth density of samples. It is a centroid based algorithm, which works by updating candidates for centroids to be the mean of the points within a given region. These candidates are then filtered in a post-processing stage to eliminate near-duplicates to form the final set of centroids.
-
-Results:
-- [Cluster Characterization](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb):
-=======
 - [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/UMAP_MEANSHIFT.ipynb): MeanShift clustering aims to discover blobs in a smooth density of samples. It is a centroid based algorithm, which works by updating candidates for centroids to be the mean of the points within a given region. These candidates are then filtered in a post-processing stage to eliminate near-duplicates to form the final set of centroids.
 
 <b>Results:</b>
 - [Cluster Characterization](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb): In this notebook we listen to several of the clustered songs and try to characterize each cluster. We describe each resulting cluster with similar features that we noticed between songs.
->>>>>>> 147d9027e1bf3a78063ada2980f5c77c4b676c56
 
 ## Results
 
@@ -79,7 +66,8 @@ This section will contain links to documentation of your results. This can inclu
 
 - [DBSCAN Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/UMAP_DBSCAN): 
 
-- [K-Means with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_UMAP):
+- [K-Means with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_UMAP)
+K-means in conjunction with UMAP feature reduction resulted in distinct clustering that had notable sonic differences. The charts here show that genre lines were not particularly influential in the groupings, but further listening analysis (see below) showed that songs put were still similar in other ways.
 
 - [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA) : After reducing the dimension of the data down to 2 using PCA, the kmeans algorithm returned clusters that were mostly similar to the kmeans with UMAP, with one difference. Since PCA is a linear dimentionality reduction algorithm, the reduced data contained less useful information compared to the UMAP, and as a result did slighly worse than the UMAP version after comparing song samples for the clusters. For that reason, we went with Kmeans with UMAP for the full cluster analysis.
 
@@ -88,7 +76,27 @@ This section will contain links to documentation of your results. This can inclu
 
 K-Means with UMAP Clustering Characteristics:
 - [Cluster Characteristics](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb)
+K-means together with UMAP seemed to have the most ideal results as far as unsupervised clustering went, so we chose these clusters to explore more in depth. In this notebook we reverse tracked the songs that were in each cluster, listened to some of those songs, and characterized the nature of those clusters. We found that in some ways it almost feels that we've stumbled upon a sentiment classifier. A lot of the songs retain the auditory distinctions of their genre, but they are instead grouped around other songs of different genre that simply communicate a similar sonic feeling.
 
+  #### Cluster Bottom Center
+  Mood: Heavy/Amped
+
+  Noisy, aggressive sounding music. Driving kick beat and rhythms. Heavy drums, aggressive electric guitar.
+
+  #### Cluster Left
+  Mood: Ethereal, Spacious
+
+  Mellow vibe in this cluster, with a reverbrating, floating quality. Mid to slow tempo, melodic lines. Lack notable drum presence. Acoustic guitar, piano/keyboard.
+
+  #### Cluster Top Center
+  Rhythmic/Chill
+
+  Mid tempo but still with a forward driving rhythm. Kickdrum/bassline/downbeats are quite present, but the sounds are still quite relaxed. Heavy drum beats act as a backbone for the song, but melodies have softer feel to them.
+
+  #### Cluster Right
+  Mood: Glitchy/Synth
+
+  Heavily synthetic computer generated sounds with high tempos. Almost all hip hop and electronic music. Extremely electronic, almost dubstep-esque. Even the folk songs have a more synth-like quality to them.
 
 ## Discussion
 
@@ -108,9 +116,9 @@ Future directions for this project could include refining the resulting visualiz
 ## Team Roles
 
 - Farhood Ensan: Farhood implemented KMeans with PCA and the Agglomerative clustering with UMAP. He helped other members with visualization and helped writing different parts of the report.
-- Rebecca Hu: Rebecca created the EDA and affinity propagation notebooks. She also contributed by writing several sections in the final report.
-- Alex Luo: Alex implemented KMeans clustering with UMAP. He also generated the sample features file consisting of 1600 tracks that we used to train all our models. He participated in writing different parts of the report as well.
-- Sharmi Mathur: Sharmi did the initial data cleaning and acquisition, she implemented the Density-based clustering algorithms DBSCAN and MeanShift. She wrote various parts of the final report.  
+- Rebecca Hu: Rebecca created the EDA and affinity propagation notebooks. She listened to the tracks in each of the clusters to help characterize the mood of the songs. She also contributed by writing several sections in the final report.
+- Alex Luo: Alex implemented KMeans clustering with UMAP. He also generated the sample features file consisting of 1600 tracks that we used to train all our models. He listened to the tracks in each of the clusters to help characterize the mood of the songs. He participated in writing different parts of the report as well.
+- Sharmi Mathur: Sharmi did the initial data cleaning, she implemented the Density-based clustering algorithm and wrote different parts of the final report.  
 
 ## Technical Notes and Dependencies
 
