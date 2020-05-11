@@ -102,6 +102,7 @@ K-means together with UMAP seemed to have the most ideal results as far as unsup
 ## Discussion
 
 (30 points, three to five paragraphs)
+
 The UMAP feature reduction combined with K-means seemed to have the clearest results, yielding the interesting perspective that the genre is not all that predictive of audio groupings. By listening to the tracks in each cluster, we found that the songs nearly seemed to have been categorized into mood/sentiment, the descriptions of which are above. This affirms a hypothesis that a classification of music based purely on audio features would actually be very different from the way genres group music through a myriad of social constructs.
 
 The way that songs are thought to be classified into genres can be described as hierarchical in nature. There are broad buckets that most songs fit into, and then some songs can be further classified into subgenres. However, the labeled genre of a song can also be influenced by non-musical factors, like who the artist is or other cultural and societal reasons. The results of our project suggest that genres of music may be more fluid than we previously believed. We intentionally chose songs from four very distinct genres (Rock, Hip Hop, Electronic, and Folk) to see how an unsupervised algorithm would form new clusters of similar songs along novel dimensions based on Librosa-derived audio features.
