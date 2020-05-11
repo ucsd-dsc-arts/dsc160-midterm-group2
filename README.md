@@ -75,13 +75,13 @@ This section will contain links to documentation of your results. This can inclu
 
 - [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg): We concluded that affinity propagation was not an appropriate algorithm for our problem. The number of resulting clusters is not predefined with this algorithm and so we often obtained results with over 100 unique clusters. With this number of clusters, we found it difficult to uniquely identify characteristics of each cluster and difficult to visualize.
 
-- [Agglomerative Clustering with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Agglomerative_UMAP)
+- [Agglomerative Clustering with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Agglomerative_UMAP): We used UMAP to reduce the dimension of the data down to 2 and then we trained the afflomerative clustering algorithm. The resulting 4 clusters were very similar to kmeans with a slight difference in clustering borders in the graph. Because of this similarity, we chose to go with KMeans for the further analysis. 
 
 - [DBSCAN Results]()
 
 - [K-Means with UMAP Results]()
 
-- [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA)
+- [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA) : After reducing the dimension of the data down to 2 using PCA, the kmeans algorithm returned clusters that were mostly similar to the kmeans with UMAP, with one difference. Since PCA is a linear dimentionality reduction algorithm, the reduced data contained less useful information compared to the UMAP, and as a result did slighly worse than the UMAP version after comparing song samples for the clusters. For that reason, we went with Kmeans with UMAP for the full cluster analysis.
 
 - [MeanShift Results]()
 
