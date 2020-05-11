@@ -58,8 +58,6 @@ PCA (Principal Component Analysis) is a technique which finds the major patterns
 
 (30 points)
 
-This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below:
-
 - [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg): We concluded that affinity propagation was not an appropriate algorithm for our problem. The number of resulting clusters is not predefined with this algorithm and so we often obtained results with over 100 unique clusters. With this number of clusters, we found it difficult to uniquely identify characteristics of each cluster and difficult to visualize.
 
 - [Agglomerative Clustering with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Agglomerative_UMAP): We used UMAP to reduce the dimension of the data down to 2 and then we trained the afflomerative clustering algorithm. The resulting 4 clusters were very similar to kmeans with a slight difference in clustering borders in the graph. Because of this similarity, we chose to go with KMeans for the further analysis. 
@@ -99,7 +97,7 @@ K-means together with UMAP seemed to have the most ideal results as far as unsup
 
 ## Discussion
 
-(30 points, three to five paragraphs)
+(30 points)
 
 The UMAP feature reduction combined with K-means seemed to have the clearest results, yielding the interesting perspective that the genre is not all that predictive of audio groupings. By listening to the tracks in each cluster, we found that the songs nearly seemed to have been categorized into mood/sentiment, the descriptions of which are above. This affirms a hypothesis that a classification of music based purely on audio features would actually be very different from the way genres group music through a myriad of social constructs.
 
