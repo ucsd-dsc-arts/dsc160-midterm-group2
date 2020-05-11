@@ -61,7 +61,7 @@ Results:
 
 This section will contain links to documentation of your results. This can include figures, sound files, videos, bitmaps, as appropriate to your domain of analysis. Each result should include a brief textual description, and all should be listed below: 
 
-- [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg): 
+- [Affinity Propagation Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/results/af_results.jpg): We concluded that affinity propagation was not an appropriate algorithm for our problem. The number of resulting clusters is not predefined with this algorithm and so we often obtained results with over 100 unique clusters. With this number of clusters, we found it difficult to uniquely identify characteristics of each cluster and difficult to visualize. 
 
 - [Agglomerative Clustering with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Agglomerative_UMAP)
 
@@ -98,7 +98,7 @@ The subsequent paragraphs could address questions including:
  
 <br> Factors that go into determining a song’s genres include, but are not limited to, its audio qualities, the artist(s) that created the piece, the time period during which it was made, and its lyrics. Although there is no objectively correct way of categorizing music, generally we assume to only find music with similar audial characteristics within a particular genre. However, if an artist typically known for their rock music releases a song with heavy folk influences, it is possible that the song could lack a “folk” genre label, even if such a label would be appropriate. We sought to explore how songs might be classified into genres if only the audio features, rather than any metadata, of the music were used to determine what category each song belonged to.
 
-<br> [INSERT PARAGRAPH HERE: How do you think the original artists/musicians would respond to this type of analysis? Would it change/inform their practice in some way?]
+After listening to a variety of the clustered tracks, we would like to ask the original artists and musicians what their personal goal for the sound was and compare it to their classification. They might be surprised that their rock songs could be considered folk by a computer. Musicians, howerer, should not be driven by a certain genre; they should make the music they want. We hope that a computer-generated classification would not change their respective music styles. Genre is fluid and classifying a song can be subjective, especially when many elements of different genres could be incorporated.
  
 <br> Future directions for this project could include refining the resulting visualizations to include tooltips that would allow users to listen to the audio files as they scroll over each data point on the scatterplot. This would allow for a user-friendly interface to allow us to characterize the resulting clusters more efficiently. Given more time, we would have also liked to try more clustering algorithms as well as different feature selection methods.
 
