@@ -66,10 +66,10 @@ This section will contain links to documentation of your results. This can inclu
 
 - [DBSCAN Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/UMAP_DBSCAN): 
 
-- [K-Means with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_UMAP)
+- [K-Means with UMAP Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_UMAP): 
 K-means in conjunction with UMAP feature reduction resulted in distinct clustering that had notable sonic differences. The charts here show that genre lines were not particularly influential in the groupings, but further listening analysis (see below) showed that songs put were still similar in other ways.
 
-- [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA) : After reducing the dimension of the data down to 2 using PCA, the kmeans algorithm returned clusters that were mostly similar to the kmeans with UMAP, with one difference. Since PCA is a linear dimentionality reduction algorithm, the reduced data contained less useful information compared to the UMAP, and as a result did slighly worse than the UMAP version after comparing song samples for the clusters. For that reason, we went with Kmeans with UMAP for the full cluster analysis.
+- [K-Means with PCA Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/Kmeans_PCA): After reducing the dimension of the data down to 2 using PCA, the kmeans algorithm returned clusters that were mostly similar to the kmeans with UMAP, with one difference. Since PCA is a linear dimentionality reduction algorithm, the reduced data contained less useful information compared to the UMAP, and as a result did slighly worse than the UMAP version after comparing song samples for the clusters. For that reason, we went with Kmeans with UMAP for the full cluster analysis.
 
 - [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/UMAP_MeanShift):
 
