@@ -74,7 +74,7 @@ K-means in conjunction with UMAP feature reduction resulted in distinct clusteri
 - [MeanShift Results](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/tree/master/results/UMAP_MeanShift):
 
 
-K-Means with UMAP Clustering Characteristics:
+<b>K-Means with UMAP Clustering Characteristics: </b>
 - [Cluster Characteristics](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb)
 K-means together with UMAP seemed to have the most ideal results as far as unsupervised clustering went, so we chose these clusters to explore more in depth. In this notebook we reverse tracked the songs that were in each cluster, listened to some of those songs, and characterized the nature of those clusters. We found that in some ways it almost feels that we've stumbled upon a sentiment classifier. A lot of the songs retain the auditory distinctions of their genre, but they are instead grouped around other songs of different genre that simply communicate a similar sonic feeling.
 
@@ -104,7 +104,7 @@ K-means together with UMAP seemed to have the most ideal results as far as unsup
 
 [INSERT FIRST PARAGRAPH SUMMARIZING RESULTS]
 
-<br> The way that songs are thought to be classified into genres can be described as hierarchical in nature. There are broad buckets that most songs fit into, and then some songs can be further classified into subgenres. However, the labeled genre of a song can also be influenced by non-musical factors, like who the artist is or other cultural and societal reasons. The results of our project suggest that genres of music may be more fluid than we previously believed. We intentionally chose songs from four very distinct genres (Rock, Hip Hop, Electronic, and Folk) to see how an unsupervised algorithm would form new clusters of similar songs along novel dimensions based on Librosa-derived audio features.
+The way that songs are thought to be classified into genres can be described as hierarchical in nature. There are broad buckets that most songs fit into, and then some songs can be further classified into subgenres. However, the labeled genre of a song can also be influenced by non-musical factors, like who the artist is or other cultural and societal reasons. The results of our project suggest that genres of music may be more fluid than we previously believed. We intentionally chose songs from four very distinct genres (Rock, Hip Hop, Electronic, and Folk) to see how an unsupervised algorithm would form new clusters of similar songs along novel dimensions based on Librosa-derived audio features.
 
 Factors that go into determining a song’s genres include, but are not limited to, its audio qualities, the artist(s) that created the piece, the time period during which it was made, and its lyrics. Although there is no objectively correct way of categorizing music, generally we assume to only find music with similar audial characteristics within a particular genre. However, if an artist typically known for their rock music releases a song with heavy folk influences, it is possible that the song could lack a “folk” genre label, even if such a label would be appropriate. We sought to explore how songs might be classified into genres if only the audio features, rather than any metadata, of the music were used to determine what category each song belonged to.
 
