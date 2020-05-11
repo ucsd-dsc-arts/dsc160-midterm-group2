@@ -2,7 +2,7 @@
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
-Project Team Members: 
+<b> Project Team Members: </b>
 - Farhood Ensan, fensan@ucsd.edu
 - Rebecca Hu, reh016@ucsd.edu
 - Alex Luo, ayl081@ucsd.edu
@@ -28,10 +28,10 @@ The cultural data source we use in our project is an audio dataset from Free Mus
 
 (20 points)
 
-Data Acquisition:
+<b>Data Acquisition: </b>
 - [Data Acquisition](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/data_acquisition.ipynb): This notebook cleans the reorganizes the multi-indices in the <i>features.csv</i> and removes unnecessary columns to simplify our analysis. Note: Data can be downloaded from [this repository](https://github.com/mdeff/fma). 
 
-Preprocessing:
+<b>Preprocessing: </b>
 - [Feature Extraction](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Data-Select-Feature-Extract.ipynb)
 
 Analysis:
