@@ -76,6 +76,7 @@ K-means in conjunction with UMAP feature reduction resulted in distinct clusteri
 
 <b>K-Means with UMAP Clustering Characteristics: </b>
 - [Cluster Characteristics](https://github.com/ucsd-dsc-arts/dsc160-midterm-group2/blob/master/code/Cluster_Characterization.ipynb)
+
 K-means together with UMAP seemed to have the most ideal results as far as unsupervised clustering went, so we chose these clusters to explore more in depth. In this notebook we reverse tracked the songs that were in each cluster, listened to some of those songs, and characterized the nature of those clusters. We found that in some ways it almost feels that we've stumbled upon a sentiment classifier. A lot of the songs retain the auditory distinctions of their genre, but they are instead grouped around other songs of different genre that simply communicate a similar sonic feeling.
 
   #### Cluster Bottom Center
@@ -89,7 +90,7 @@ K-means together with UMAP seemed to have the most ideal results as far as unsup
   Mellow vibe in this cluster, with a reverbrating, floating quality. Mid to slow tempo, melodic lines. Lack notable drum presence. Acoustic guitar, piano/keyboard.
 
   #### Cluster Top Center
-  Rhythmic/Chill
+  Mood: Rhythmic/Chill
 
   Mid tempo but still with a forward driving rhythm. Kickdrum/bassline/downbeats are quite present, but the sounds are still quite relaxed. Heavy drum beats act as a backbone for the song, but melodies have softer feel to them.
 
